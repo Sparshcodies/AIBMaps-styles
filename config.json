@@ -1,0 +1,29 @@
+{
+  "options": {
+    "paths": {
+      "fonts": "fonts",
+      "styles": "styles"
+    }
+  },
+  "styles": {
+    "test-style": {
+      "style": "osm-bright/light_mode_map.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [68.116667, 8.076667, 97.416667, 37.090000]
+      }
+    },
+    "maptiler-basic": {
+      "style": "maptiler-basic/dark_mode.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [68.116667, 8.076667, 97.416667, 37.090000]
+      }
+    }
+  },
+  "data": {
+    "openmaptiles": {
+      "mbtiles": "india_merged_water.mbtiles"
+    }
+  }
+}
