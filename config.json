@@ -14,7 +14,7 @@
       }
     },
     "maptiler-basic": {
-      "style": "maptiler-basic/dark_mode.json",
+      "style": "dark-mode/dark_mode.json",
       "tilejson": {
         "type": "overlay",
         "bounds": [68.116667, 8.076667, 97.416667, 37.090000]
