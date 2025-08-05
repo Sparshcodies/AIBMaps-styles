@@ -7,7 +7,7 @@
   },
   "styles": {
     "test-style": {
-      "style": "osm-bright/light_mode_map.json",
+      "style": "light-mode/light_mode.json",
       "tilejson": {
         "type": "overlay",
         "bounds": [68.116667, 8.076667, 97.416667, 37.090000]
