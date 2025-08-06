@@ -2050,7 +2050,7 @@
                 "text-halo-width": 1
             }
         },
-                {
+        {
             "id": "poi_hospital",
             "type": "symbol",
             "source": "openmaptiles",
@@ -2238,7 +2238,7 @@
         },
         {
             "id": "poi_park",
-            "icon-size": 1.5,          
+            "icon-size": 1.5,
             "type": "symbol",
             "source": "openmaptiles",
             "source-layer": "poi",
@@ -2250,6 +2250,325 @@
             ],
             "layout": {
                 "icon-image": "park_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_lodging",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "in",
+                "class",
+                "hotel",
+                "motel",
+                "hostel",
+                "guesthouse",
+                "alpine_hut",
+                "lodge"
+            ],
+            "layout": {
+                "icon-image": "lodging_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_food_bar",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "in",
+                "class",
+                "bar",
+                "pub"
+            ],
+            "layout": {
+                "icon-image": "bar_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_food_fastfood",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "class",
+                "fast_food"
+            ],
+            "layout": {
+                "icon-image": "fast_food_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_food_cafe",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "class",
+                "cafe"
+            ],
+            "layout": {
+                "icon-image": "cafe_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_food_restaurant",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "class",
+                "restaurant"
+            ],
+            "layout": {
+                "icon-image": "restaurant_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_retail_grocery",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "in",
+                "class",
+                "grocery",
+                "supermarket",
+                "convenience"
+            ],
+            "layout": {
+                "icon-image": "grocery_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_health_doctor",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "in",
+                "class",
+                "doctor",
+                "general_practitioner"
+            ],
+            "layout": {
+                "icon-image": "doctor_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_health_dentist",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "class",
+                "dentist"
+            ],
+            "layout": {
+                "icon-image": "dentist_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_religious_christian",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "religion",
+                "christian"
+            ],
+            "layout": {
+                "icon-image": "religious_christian_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_religious_muslim",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "religion",
+                "muslim"
+            ],
+            "layout": {
+                "icon-image": "religious_muslim_11",
                 "icon-size": 1.5,
                 "text-field": "{name:latin}",
                 "text-font": [
