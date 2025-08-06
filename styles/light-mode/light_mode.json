@@ -12211,6 +12211,7 @@
       "layout": {
         "icon-image": "oneway",
         "icon-padding": 2,
+        "icon-rotate": 90,
         "icon-rotation-alignment": "map",
         "icon-size": {
           "stops": [
@@ -12260,7 +12261,7 @@
       "layout": {
         "icon-image": "oneway",
         "icon-padding": 2,
-        "icon-rotate": -90,
+        "icon-rotate": 0,
         "icon-rotation-alignment": "map",
         "icon-size": {
           "stops": [
@@ -14353,28 +14354,6 @@
                 "text-halo-width": 1
             }
         },
-        {
-            "id": "poi_hospital",
-            "type": "symbol",
-            "source": "openmaptiles",
-            "source-layer": "poi",
-            "minzoom": 13,
-            "filter": ["==", "class", "hospital"],
-            "layout": {
-                "icon-image": "hospital_11",
-                "icon-size": 1,
-                "text-field": "{name:latin}",
-                "text-font": ["Open Sans Regular"],
-                "text-size": 11,
-                "text-offset": [0, 1.4],
-                "text-anchor": "top"
-            },
-            "paint": {
-                "text-color": "#fff",
-                "text-halo-width": 1,
-                "text-halo-color": "#222"
-            }
-        },
     {
       "id": "place_country_major",
       "type": "symbol",
@@ -14434,7 +14413,225 @@
         "text-halo-color": "rgba(0, 0, 0, 0.7)",
         "text-halo-width": 1.4
       }
-    }
+    },
+            {
+            "id": "poi_hospital",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "class",
+                "hospital"
+            ],
+            "layout": {
+                "icon-image": "hospital_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_cafe",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "class",
+                "cafe"
+            ],
+            "layout": {
+                "icon-image": "cafe_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_school",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "class",
+                "school"
+            ],
+            "layout": {
+                "icon-image": "school_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_college",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "class",
+                "college"
+            ],
+            "layout": {
+                "icon-image": "college_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_restaurant",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "class",
+                "restaurant"
+            ],
+            "layout": {
+                "icon-image": "restaurant_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_bank",
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "class",
+                "bank"
+            ],
+            "layout": {
+                "icon-image": "bank_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        },
+        {
+            "id": "poi_park",
+            "icon-size": 1.5,          
+            "type": "symbol",
+            "source": "openmaptiles",
+            "source-layer": "poi",
+            "minzoom": 13,
+            "filter": [
+                "==",
+                "class",
+                "park"
+            ],
+            "layout": {
+                "icon-image": "park_11",
+                "icon-size": 1.5,
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Open Sans Regular"
+                ],
+                "text-size": 11,
+                "text-offset": [
+                    0,
+                    1.4
+                ],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-width": 1,
+                "text-halo-color": "#222"
+            }
+        }
   ],
   "id": "openstreetmap"
 }
