@@ -6,15 +6,29 @@
     }
   },
   "styles": {
-    "test-style": {
+    "light-mode": {
       "style": "light-mode/light_mode.json",
       "tilejson": {
         "type": "overlay",
         "bounds": [68.116667, 8.076667, 97.416667, 37.090000]
       }
     },
-    "maptiler-basic": {
+    "dark-mode": {
       "style": "dark-mode/dark_mode.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [68.116667, 8.076667, 97.416667, 37.090000]
+      }
+    },
+    "light-mode-nopoi": {
+      "style": "light-no-poi/light_mode.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [68.116667, 8.076667, 97.416667, 37.090000]
+      }
+    },
+    "dark-mode-nopoi": {
+      "style": "dark-no-poi/dark_mode.json",
       "tilejson": {
         "type": "overlay",
         "bounds": [68.116667, 8.076667, 97.416667, 37.090000]
